@@ -14,13 +14,13 @@
 
 * Request the scanner to stop, by calling 
 
-	BluetoothScanService.requestStop(MainActivity.this);
+		BluetoothScanService.requestStop(MainActivity.this);
 	
 * On the bluetooth scanner service stopping you can then ..
 
 * Start the BloodOximeterService with your found device address:
 
-	BloodOximeterDeviceService.requestData(MainActivity.this, mDeviceAddress);
+		BloodOximeterDeviceService.requestData(MainActivity.this, mDeviceAddress);
 
 
 
