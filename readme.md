@@ -56,7 +56,7 @@ public String toString()
 
 For more inforamtion see 
 
-The [android demo app](https://github.com/zh2x/SpO2-BLE-for-Android)
+The android demo app [https://github.com/zh2x/SpO2-BLE-for-Android](https://github.com/zh2x/SpO2-BLE-for-Android)
 
-The [protocol data definition](https://github.com/zh2x/BCI_Protocol)
+The protocol data definition [https://github.com/zh2x/BCI_Protocol](https://github.com/zh2x/BCI_Protocol)
 
