@@ -1,6 +1,6 @@
 # Pulse Oximeter Reader for Android
 
-#### To Use
+### To Use
 
 * Listen too bluetooth scanner service scan result BluetoothScanService.ON_SCAN_RESULT
 
@@ -33,5 +33,30 @@ if (scanResult.getDevice().getName() != null && scanResult.getDevice().getName()
 BloodOximeterDeviceService.requestData(MainActivity.this, mDeviceAddress);
 ```
 
+### Data Format
 
+The data is returned as a BCIData Object, this has the following properties:
+
+```java
+public int getSignalStrength()
+public int getPleth() 
+public int getBargraph() 
+public int getPulseRate()
+public int getSpO2() 
+public boolean isBargraphValid() 
+public boolean isPlethValid() 
+public boolean isFingerPresent() 
+public boolean isPulseFound() 
+public boolean isProbePlugged() 
+public boolean isSignal()
+public boolean isPulseBeep()
+public String toString()
+```
+### Reference Material
+
+For more inforamtion see 
+
+The [android demo app](https://github.com/zh2x/SpO2-BLE-for-Android)
+
+The [protocol data definition](https://github.com/zh2x/BCI_Protocol)
 
